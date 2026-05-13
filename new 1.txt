@@ -1,0 +1,54 @@
+steps to create PAT
+1)click on the profile icon(top-right corner)
+2)click settings
+3)scroll down and click developer settings
+4)click personal access tokens
+5)click token(classics)
+6)click on generate new token,again click classic
+
+git clone repo_url
+git clone github.com/username/repo_name
+
+
+PUSH and PULL
+PUSH is to copy thge files and folders from local repo to remote repo
+PULL is the opposite of PUSH
+
+Push:
+	 listing the files and folders ()
+	 create the commit object with necessary messages push
+
+Rememnber,each commit is a version.
+Its not necessary to push every commit. We can push multiple commits at a time.
+
+In our repo folder these are content:
+30 old (not modified) + 15 new (5 each in a sub folder, such 2-sub folders) +2 del (5 to be ignored)
+
+Git will list these:
+	10 new files
+	10 deleted files
+	
+	
+
+Brute force(Bubble sort,selection sort)
+Decrease and conquer(Insertion sort)
+Divide and conquer(Merge sort,quick sort)
+Tree based sorting:BBST sort,heap sort
+Combination of algorithms sorting:Bucket sort
+Non comparitive sorting:Radix sort
+
+
+Bubble sort
+77		34 		55		45		9		13		22		35
+34		55		45		9		13		22		35		77
+34		45		9		13		22		35		55		77
+34		9		13		22		35		45		55		77
+9		13		22		34		35		45		55		77
+
+n-1 + n-2 + n-3 ...3+2+1
+O(n2)
+
+
+Insertion sort:
+
+77		34 		55		45		9		13		22		35
